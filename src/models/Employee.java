@@ -41,6 +41,6 @@ public class Employee extends Person {
     public String toString() {
         return "Employee: " + getId() + ". " + getName() + " " + getSurname() +
                 ", position: " + position +
-                ", earns " + salary + " KZT" ;
+                ", earns " + salary + " kzt" ;
     }
 }
