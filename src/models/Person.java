@@ -54,6 +54,6 @@ public class Person implements Payable, Comparable<Person> {
 
     @Override
     public int compareTo(Person o) {
-        return 0;
+        return Double.compare(this.getPaymentAmount(), o.getPaymentAmount());
     }
 }
