@@ -8,6 +8,7 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
+        // adding students and employees
         Person e1 = new Employee("Didar", "Zholdybaev", "Developer", 5800);
         Person e2 = new Employee("Kazybek", "Seitkazy", "Manager", 4254);
         Person e3 = new Employee("Alken", "Zaiyr", "Chemist", 1155555);
@@ -20,7 +21,7 @@ public class Main {
         Person s4 = new Student("Mukhtar", "Jorabaev", 3.10);
         Person s5 = new Student("Kalzhan", "Kenbai", 3.95);
 
-        ArrayList<Person> persons = new ArrayList<>();
+        ArrayList<Person> persons = new ArrayList<>();// creating an array containing students and employees
         persons.add(e1);
         persons.add(e2);
         persons.add(e3);
@@ -32,14 +33,14 @@ public class Main {
         persons.add(s4);
         persons.add(s5);
 
-        Collections.sort(persons);
-        printData(persons);
+        Collections.sort(persons);// sorting
+        printData(persons);// printing income by ascending order
     }
 
     static void printData(Iterable<Person> persons){
 
         for (Person person : persons){
-            System.out.println(person.toString());
+            System.out.println(person.toString());//printing
         }
     }
 }
