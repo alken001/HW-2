@@ -9,17 +9,17 @@ import java.util.function.Predicate;
 
 public class Main {
     public static void main(String[] args) {
-        Person e1 = new Employee("Jack", "Rojers", "Developer", 5420);
-        Person e2 = new Employee("Mark", "Markov", "Manager", 4200);
-        Person e3 = new Employee("Walter", "White", "Chemist", 1150000);
-        Person e4 = new Employee("Jack", "Sparrow", "Pirate", 163450);
-        Person e5 = new Employee("Neil", "Armstrong", "Astronaut", 360500);
+        Person e1 = new Employee("Didar", "Zholdybaev", "Developer", 5800);
+        Person e2 = new Employee("Kazybek", "Seitkazy", "Manager", 4254);
+        Person e3 = new Employee("Alken", "Zaiyr", "Chemist", 11555555);
+        Person e4 = new Employee("Arman", "Zholdasev", "Pirate", 163450);
+        Person e5 = new Employee("Erlen", "Eressen", "Astronaut", 360500);
 
-        Person s1 = new Student("Jessie", "Pinkman", 2.81);
-        Person s2 = new Student("Mikey", "Mouse", 2.17);
-        Person s3 = new Student("Sponge", "Bob", 2.02);
-        Person s4 = new Student("Patrick", "Star", 3.14);
-        Person s5 = new Student("Jackie", "Chan", 3.83);
+        Person s1 = new Student("Ernur", "Batyrbek", 2.90);
+        Person s2 = new Student("Samat", "Samatov", 2.10);
+        Person s3 = new Student("Piter", "Parker", 2.00);
+        Person s4 = new Student("Mukhtar", "Jorabaev", 3.10);
+        Person s5 = new Student("Kalzhan", "Kenbai", 3.95);
 
         ArrayList<Person> persons = new ArrayList<>();
         persons.add(e1);
