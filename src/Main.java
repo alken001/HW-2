@@ -3,15 +3,14 @@ import models.Person;
 import models.Student;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.function.Predicate;
+
 
 public class Main {
     public static void main(String[] args) {
         Person e1 = new Employee("Didar", "Zholdybaev", "Developer", 5800);
         Person e2 = new Employee("Kazybek", "Seitkazy", "Manager", 4254);
-        Person e3 = new Employee("Alken", "Zaiyr", "Chemist", 11555555);
+        Person e3 = new Employee("Alken", "Zaiyr", "Chemist", 1155555);
         Person e4 = new Employee("Arman", "Zholdasev", "Pirate", 163450);
         Person e5 = new Employee("Erlen", "Eressen", "Astronaut", 360500);
 
