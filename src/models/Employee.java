@@ -3,13 +3,16 @@ package models;
 public class Employee extends Person {
     private String position;
     private double salary;
-
-    public Employee(){}
+    // constructors
+    public Employee(){
+        super();
+    }
     public Employee(String name, String surname, String position, double salary){
         super(name, surname);
         setPosition(position);
         setSalary(salary);
     }
+    // getter and setter
     @Override
     public String getPosition() {
         return position;
@@ -36,7 +39,7 @@ public class Employee extends Person {
     public int compareTo(Person o) {
         return super.compareTo(o);
     }
-
+    // Override method to create a string representation of the object
     @Override
     public String toString() {
         return "Employee: " + getId() + ". " + getName() + " " + getSurname() +

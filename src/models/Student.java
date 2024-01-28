@@ -2,7 +2,7 @@ package models;
 
 public class Student extends Person {
     double gpa;
-
+    // constructors
     public Student() {
         super();
         gpa = 0;
@@ -12,6 +12,7 @@ public class Student extends Person {
         super(name, surname);
         this.gpa = gpa;
     }
+    // getter and setter
     public double getGpa() {
         return gpa;
     }
@@ -29,6 +30,7 @@ public class Student extends Person {
     public int compareTo(Person o) {
         return super.compareTo(o);
     }
+    // implementing an abstract method for student
     @Override
     public String toString() {
         return "Student: " + getId() + ". " + getName() + " " + getSurname() +
